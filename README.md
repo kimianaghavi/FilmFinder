@@ -5,6 +5,7 @@ This project aims to build a movie recommendation system using various technique
 ## Files
 ### **01_make_data.py:** 
 This script preprocesses the raw movie data and generates a final dataset with relevant information. It filters movies based on a minimum number of ratings and merges them with tags and genome scores to enrich the dataset. The resulting dataset is saved as final_dataset.csv.
+(You can download the final dataset & full dataset from our [Google Drive](https://drive.google.com/drive/folders/1l7LP9Cpj2d9NfljpfsCdDc_IXFyl6Fx1?usp=sharing))
 
 ### **02_recommender.py:** 
 This script implements a content-based recommendation algorithm. It uses TF-IDF vectors of movie genres to find similar movies based on user input. Fuzzy matching is used to handle potential user input errors. The script interactively asks the user for a movie title and provides recommendations based on genre similarity.
